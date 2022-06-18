@@ -118,11 +118,11 @@ php-cgi-cve-2012-1823.yml
 Atlassian Confluence 远程代码执行漏洞（CVE-2022-26134）
 ```
 
-## Star
+# star
 
-\## Stargazers over time [![Stargazers over time](https://starchart.cc/zhibx/fscan-Intranet.svg)](https://starchart.cc/zhibx/fscan-Intranet) 
+[![Stargazers over time](https://starchart.cc/zhibx/fscan-Intranet.svg)](https://starchart.cc/zhibx/fscan-Intranet) 
 
-## 免责声明
+# 免责声明
 
 本工具仅面向**合法授权**的企业安全建设行为，如您需要测试本工具的可用性，请自行搭建靶机环境。
 
