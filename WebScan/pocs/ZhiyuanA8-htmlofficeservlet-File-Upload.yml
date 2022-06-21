@@ -1,0 +1,15 @@
+name: ZhiyuanA8-htmlofficeservlet-File-Upload
+rules:
+  - method: GET
+    path: /seeyon/htmlofficeservlet
+    headers:
+      User-Agent: >-
+        Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/86.0.4240.111 Safari/537.36
+    follow_redirects: false
+    expression: |
+      response.status==200 && response.body.bcontains(b'htmoffice')
+detail:
+    author: zhibing
+    links:
+        - https://github.com/zhibx/Awesome-POC/blob/master/OA%E4%BA%A7%E5%93%81%E6%BC%8F%E6%B4%9E/%E8%87%B4%E8%BF%9COA%20A8%20htmlofficeservlet%20%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E.md

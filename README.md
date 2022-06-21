@@ -112,6 +112,20 @@ php-cgi-cve-2012-1823.yml
 
 # Add Poc
 
+2022年6月21日
+
+```
+思福迪堡垒机任意用户登录漏洞
+蓝凌OA admin.do JNDI远程命令执行
+致远OA A8 htmlofficeservlet 任意文件上传漏洞
+致远OA A6 config.jsp 敏感信息泄漏漏洞
+泛微OA E-Office mysql_config.ini 数据库信息泄漏漏洞
+泛微OA E-Office UploadFile.php 任意文件上传漏洞 CNVD-2021-49104
+万户OA smartUpload.jsp 任意文件上传漏洞
+```
+
+
+
 2022年6月18日
 
 ```
