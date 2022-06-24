@@ -24,8 +24,6 @@ uwsgi-cve-2018-7490.yml
 tvt-nvms-1000-file-read-cve-2019-20085.yml
 tpshop-sqli.yml
 tpshop-directory-traversal.yml
-tongda-user-session-disclosure.yml
-tongda-meeting-unauthorized-access.yml
 thinkcmf-lfi.yml
 phpshe-sqli.yml
 thinkadmin-v6-readfile.yml
